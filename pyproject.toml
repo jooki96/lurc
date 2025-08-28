@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LURC"
+version = "0.1.1"
+description = "A minimal TCP protocol and Python library for sending and handling remote commands.  "
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{ name = "Mustafa Amir Naif Alimari }] 
+
+[project.urls]
+Homepage = "https://github.com/jooki96/lurc" 
+
+[tool.setuptools.packages.find]
+where = [""]
+include = ["lurc*"]
