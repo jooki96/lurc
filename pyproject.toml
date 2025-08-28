@@ -9,10 +9,12 @@ description = "A minimal TCP protocol and Python library for sending and handlin
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
-authors = [{ name = "Mustafa Amir Naif Alimari }] 
+authors = [
+  { name = "Mustafa Amir Naif Alimari", email = "mustafa.amir.naif@gmail.com" }
+]
 
 [project.urls]
-Homepage = "https://github.com/jooki96/lurc" 
+Homepage = "https://github.com/jooki96/lurc"
 
 [tool.setuptools.packages.find]
 where = [""]
