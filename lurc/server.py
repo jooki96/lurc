@@ -1,5 +1,5 @@
 import socket, threading
-from protocol import CMD, get_command
+from .protocol import CMD, get_command
 
 # ---------- Utilities ----------
 def _recv_exact(sock, n):

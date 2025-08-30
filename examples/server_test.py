@@ -1,5 +1,6 @@
 
-from lurc import server.CMD, server.run
+from lurc import server
+from lurc import CMD
 
 
 @CMD("VOL", 1)
@@ -23,4 +24,4 @@ def message(data):
     return b"END"
 
 if __name__ == "__main__":
-    run()
+    server.run()
